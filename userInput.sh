@@ -47,7 +47,7 @@ function getUserExp(){
 }
 
 function getUserPasswd(){
-        read -s -p"Enter password :" USER_PASSWD
+        read -s -p"Enter password :'\n'" USER_PASSWD
 	eval "$1='$USER_PASSWD'"
 }
 

@@ -27,7 +27,8 @@
 			./userAdd.sh
                 	;;
         	2)
-                	echo "WIP"
+                	chmod +x ./userMod.sh
+			./userMod.sh
                 	;;
         	3)
                 	echo "WIP"
