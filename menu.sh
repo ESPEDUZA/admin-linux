@@ -31,7 +31,8 @@
 			./userMod.sh
                 	;;
         	3)
-                	echo "WIP"
+                	chmod +x ./userDel.sh
+			./userDel.sh
                 	;;
         	4)
                 	echo exit 0

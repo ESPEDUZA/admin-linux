@@ -34,7 +34,7 @@ do
 	case "$CHOICE" in
                 1)
                         getUserName NEW_USER_NAME
-			sudo usermod -l "$NEW_USER_NAME" "$USER_NAME"
+			usermod -l "$NEW_USER_NAME" "$USER_NAME"
                         ;;
                 2)
                         getUserPath USER_PATH
